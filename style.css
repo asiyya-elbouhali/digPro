@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body
+{
+background-image: url("background.png");
+background-size:100%;
+background-position-y: 10%;
+position: relative;
+height: 1000px;
+
+
+}
+.services
+{
+
+}
+
+.service_icon
+{
+    border: 1px solid gray;
+
+}
+
+
+.service_icon img
+{
+ height: 30px;
+ width: 30px;
+}
+
+
+.navbar
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 9%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(113, 113, 113);
+    box-shadow: 0px 2px 4px rgb(177, 177, 177) ;
+    font-size: 1.7vw;
+    margin-bottom: 5%;
+}
+.navbar img
+{
+
+    height: 80%;
+    width: 20%;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.navbar ul
+{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    right: 0px;
+    width: 70%;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    margin-right: 5%;
+
+}
+ 
+.navbar a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+.services h1
+{
+    text-align: center;
+    font-size: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    position: absolute;
+    border-top: 2px ;
+    font-size: 1vw;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    bottom: 0px;
+}
+.footer ul li
+{
+    list-style: none;
+    display: inline-table;
+    margin: 4%;
+}
+.footer ul
+{
+    margin-left: 2%;
+}
+
+
+
